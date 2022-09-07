@@ -68,7 +68,7 @@ Returns a single document that matches the query
 findOne({query})
 ```
 
-NB:
+_NB_:
 Query is just JavaScript object with key-value pairs.
 Use dot (.) notation to query for nested (embedded) document
 
@@ -115,7 +115,7 @@ Example
  {“gender”: “male”, “maritalStatus” : “single”}
 ```
 
-NB
+_NB_
 comma (,) represents AND
 
 ## QUERY OPERATORS
@@ -165,5 +165,5 @@ Syntax
  { $and: [ {“gender” : “male”} , “age” : 25 } ] }
 ```
 
-NB
+_NB_
 Explicit $and MUST be used if conditions contains same field or operator
